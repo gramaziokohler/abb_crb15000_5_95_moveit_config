@@ -4,9 +4,8 @@
   <name>abb_crb15000_5_95_moveit_config</name>
   <version>0.3.0</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the abb_crb15000_5_95 with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the abb_irb4600_40_255 with the MoveIt Motion Planning Framework
   </description>
-  
   <maintainer email="zhuzhang@student.ethz.ch">Zac Zhuo Zhang</maintainer>
 
   <license>BSD</license>
@@ -15,7 +14,7 @@
   <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
   <url type="repository">https://github.com/ros-planning/moveit2</url>
 
-  <author email="zhuzhang@student.ethz.ch">Zac Zhuo Zhang</author>
+  <author email="zhuzhang@student.ethz.ch">Zhu Zhang</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
@@ -31,7 +30,7 @@
        We don't include them by default to prevent installing gazebo and all its dependencies. -->
   <!-- <exec_depend>joint_trajectory_controller</exec_depend> -->
   <!-- <exec_depend>gazebo_ros_control</exec_depend> -->
-  <exec_depend>abb_crb15000_support</exec_depend>
+  <exec_depend>abb_irb4600_40_255</exec_depend>
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
@@ -45,6 +44,8 @@
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>warehouse_ros_mongo</exec_depend>
   <exec_depend>xacro</exec_depend>
+
+
   <export>
       <build_type>ament_cmake</build_type>
   </export>

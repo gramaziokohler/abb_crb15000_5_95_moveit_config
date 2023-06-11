@@ -1,4 +1,4 @@
-# Default initial positions for abb_crb15000_5_95's ros2_control fake system
+# Default initial positions for abb_irb4600_40_255's ros2_control fake system
 
 initial_positions:
   joint_1: 0
